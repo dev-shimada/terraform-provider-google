@@ -237,7 +237,7 @@ func RecaptchaEnterpriseKeyWebSettingsSchema() *schema.Resource {
 				Type:        schema.TypeString,
 				Required:    true,
 				ForceNew:    true,
-				Description: "Required. Describes how this key is integrated with the website. Possible values: SCORE, CHECKBOX, INVISIBLE",
+				Description: "Required. Describes how this key is integrated with the website. Possible values: SCORE, CHECKBOX, INVISIBLE, POLICY_BASED_CHALLENGE",
 			},
 
 			"allow_all_domains": {

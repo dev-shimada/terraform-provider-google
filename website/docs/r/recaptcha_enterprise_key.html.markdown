@@ -275,7 +275,7 @@ The `web_settings` block supports:
     
 * `integration_type` -
   (Required)
-  Required. Describes how this key is integrated with the website. Possible values: SCORE, CHECKBOX, INVISIBLE
+  Required. Describes how this key is integrated with the website. Possible values: SCORE, CHECKBOX, INVISIBLE, POLICY_BASED_CHALLENGE
     
 ## Attributes Reference
 
